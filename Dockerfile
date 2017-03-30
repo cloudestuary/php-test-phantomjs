@@ -1,6 +1,6 @@
 FROM cloudestuary/php-test:latest
 
-ENV DISPLAY=:99.0
+ENV DISPLAY :99.0
 
 RUN apt-get update \
     && apt-get install software-properties-common wget xvfb psmisc \
